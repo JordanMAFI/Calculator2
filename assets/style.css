@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,800;0,900;1,100&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    color: #fff;
+    background-color: #ccf;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    font-family: Montserrat, sans-serif;
+    font-weight: 200;
+}
+
+.container {
+    height: 100%;
+    background: linear-gradient(#ccc, #91d5e5);
+}
+
+.calculator {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #222222;
+}
+
+.heading {
+    font-size: 34px;
+    text-shadow: 2px 2px 5px #888;
+}
+
+.display {
+    background: hsla(0, 0%, 27%, 0.5);
+    padding: 10px;
+    border: 1px solid #2222222f;
+    border-radius: 5px;
+}
+
+.display input#display {
+    padding: 12px;
+    font-size: 30px;
+    text-align: right;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px #1111115f;
+    color: linen;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
