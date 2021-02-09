@@ -1,58 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator 2</title>
-    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <title>Calculator 2</title>
 </head>
 <body>
 
-    <div class="notification">
-        <div class="icon">
 
-        </div>
-        <div class="message">
 
-        </div>
+  <div class="container">
+
+    <div class="info">
+      <div class="title">
+        <h4 class="message-title">&nbsp;</h4>
+      </div>
+      <div class="message">
+        <p class="message-body">&nbsp;</p>
+      </div>
     </div>
 
-    <div class="container">
-        <div class="calculator">
+    <div class="calculator">
 
-            <div class="heading">
-                <h1>Calculator</h1>
-            </div>
+      <div class="display">
+        <input type="number" id="display" disabled>
+      </div>
 
-            <div class="display">
-                <input type="number" id="display">
-            </div>
-            <div class="keypad">
-                <div class="keys"><span class="key">9</span></div>
-                <div class="keys"><span class="key">8</span></div>
-                <div class="keys"><span class="key">7</span></div>
-                <div class="keys"><span class="key">6</span></div>
-                <div class="keys"><span class="key">5</span></div>
-                <div class="keys"><span class="key">4</span></div>
-                <div class="keys"><span class="key">3</span></div>
-                <div class="keys"><span class="key">2</span></div>
-                <div class="keys"><span class="key">1</span></div>
-                <div class="keys"><span class="key">0</span></div>
-                <div class="keys"><span class="key">.</span></div>
-                <div class="keys"><span class="key">=</span></div>
-            </div>
+      <div class="specials">
+          <div class="special"><span>C</span></div>
+          <div class="special"><span>%</span></div>
+          <div class="special"><span>X<sup>2</sup></span></div>
+          <div class="special"><span>DEL</span></div>
+      </div>
 
-            <div class="operators">
-                <div class="operator"><span>+</span></div>
-                <div class="operator"><span>-</span></div>
-                <div class="operator"><span>*</span></div>
-                <div class="operator"><span>/</span></div>
-            </div>
+      <div class="keypad">
+        <div class="key"><span>9</span></div>
+        <div class="key"><span>8</span></div>
+        <div class="key"><span>7</span></div>
+        <div class="operator" id="add"><span></span></div>
+        <div class="key"><span>6</span></div>
+        <div class="key"><span>5</span></div>
+        <div class="key"><span>4</span></div>
+        <div class="operator" id="sub"><span></span></div>
+        <div class="key"><span>3</span></div>
+        <div class="key"><span>2</span></div>
+        <div class="key"><span>1</span></div>
+        <div class="operator" id="mul"><span></span></div>
+        <div class="key"><span>.</span></div>
+        <div class="key"><span>0</span></div>
+        <div class="key" id="eq"><span>=</span></div>
+        <div class="operator"  id="div"><span></span></div>
+      </div>
 
-        </div>
     </div>
 
+  </div>
 
-    <script type="text/javascript" src="./assets/script.js"></script>
+  <script type="text/javascript" src="./assets/script.js"></script>
 </body>
 </html>
