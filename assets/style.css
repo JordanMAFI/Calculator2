@@ -1,17 +1,17 @@
 @font-face {
   font-family:"Segoe UI";
-  src: url("./assets/fonts/segoeui.woff2") format("woff2");
-  src: url("./assets/fonts/segoeui.ttf") format("truetype");
+  src: url("fonts/segoeui.woff2") format("woff2");
+  src: url("fonts/segoeui.ttf") format("truetype");
 }
 @font-face {
   font-family:"Segoe UI Black";
-  src: url("./assets/fonts/seguibl.woff2") format("woff2");
-  src: url("./assets/fonts/seguibl.ttf") format("truetype");
+  src: url("fonts/seguibl.woff2") format("woff2");
+  src: url("fonts/seguibl.ttf") format("truetype");
 }
 @font-face {
   font-family:"Segoe MDL2 Assets";
-  src: url("./assets/fonts/segmdl2.woff2") format("woff2");
-  src: url("./assets/fonts/segmdl2.ttf") format("truetype");
+  src: url("fonts/segmdl2.woff2") format("woff2");
+  src: url("fonts/segmdl2.ttf") format("truetype");
 }
 
 
